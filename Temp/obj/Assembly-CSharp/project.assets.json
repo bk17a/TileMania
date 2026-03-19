@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "FMODUnity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/FMODUnity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FMODUnity.dll": {}
+        }
+      },
+      "FMODUnityEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "FMODUnity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FMODUnityEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FMODUnityEditor.dll": {}
+        }
+      },
+      "FMODUnityHaptics/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "FMODUnity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FMODUnityHaptics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FMODUnityHaptics.dll": {}
+        }
+      },
+      "FMODUnityResonance/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "FMODUnity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FMODUnityResonance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FMODUnityResonance.dll": {}
+        }
+      },
+      "FMODUnityResonanceEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "FMODUnityResonance": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FMODUnityResonanceEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FMODUnityResonanceEditor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FMODUnity/1.0.0": {
+      "type": "project",
+      "path": "FMODUnity.csproj",
+      "msbuildProject": "FMODUnity.csproj"
+    },
+    "FMODUnityEditor/1.0.0": {
+      "type": "project",
+      "path": "FMODUnityEditor.csproj",
+      "msbuildProject": "FMODUnityEditor.csproj"
+    },
+    "FMODUnityHaptics/1.0.0": {
+      "type": "project",
+      "path": "FMODUnityHaptics.csproj",
+      "msbuildProject": "FMODUnityHaptics.csproj"
+    },
+    "FMODUnityResonance/1.0.0": {
+      "type": "project",
+      "path": "FMODUnityResonance.csproj",
+      "msbuildProject": "FMODUnityResonance.csproj"
+    },
+    "FMODUnityResonanceEditor/1.0.0": {
+      "type": "project",
+      "path": "FMODUnityResonanceEditor.csproj",
+      "msbuildProject": "FMODUnityResonanceEditor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "FMODUnity >= 1.0.0",
+      "FMODUnityEditor >= 1.0.0",
+      "FMODUnityHaptics >= 1.0.0",
+      "FMODUnityResonance >= 1.0.0",
+      "FMODUnityResonanceEditor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/brian/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/brian/Desktop/unity src/TileMania/Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "/Users/brian/Desktop/unity src/TileMania/Assembly-CSharp.csproj",
+      "packagesPath": "/Users/brian/.nuget/packages/",
+      "outputPath": "/Users/brian/Desktop/unity src/TileMania/Temp/obj/Assembly-CSharp/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/brian/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/brian/Desktop/unity src/TileMania/FMODUnity.csproj": {
+              "projectPath": "/Users/brian/Desktop/unity src/TileMania/FMODUnity.csproj"
+            },
+            "/Users/brian/Desktop/unity src/TileMania/FMODUnityEditor.csproj": {
+              "projectPath": "/Users/brian/Desktop/unity src/TileMania/FMODUnityEditor.csproj"
+            },
+            "/Users/brian/Desktop/unity src/TileMania/FMODUnityHaptics.csproj": {
+              "projectPath": "/Users/brian/Desktop/unity src/TileMania/FMODUnityHaptics.csproj"
+            },
+            "/Users/brian/Desktop/unity src/TileMania/FMODUnityResonance.csproj": {
+              "projectPath": "/Users/brian/Desktop/unity src/TileMania/FMODUnityResonance.csproj"
+            },
+            "/Users/brian/Desktop/unity src/TileMania/FMODUnityResonanceEditor.csproj": {
+              "projectPath": "/Users/brian/Desktop/unity src/TileMania/FMODUnityResonanceEditor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
